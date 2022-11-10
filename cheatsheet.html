@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+</head>
+
+<body>
+    <!--ENLACES (INTERNOS O EXTERNOS)-->
+    <a href="https://www.google.es/" target="_blanck">Enlace a Google</a>
+    <a href="blog.html">Enlace a Blog</a>
+    <!--LINEA EN BLANCO-->
+    <br>
+    <!--LINEA SEPARADORA-->
+    <hr>
+    <!--TITULOS / HEADINGS-->
+    <h1>Hola caracola</h1>
+    <h2>Hola caracola</h2>
+    <h3>Muere muere mucho muere</h3>
+    <h4>Hola caracola</h4>
+    <h5>Hola caracola</h5>
+    <h6>Hola caracola</h6>
+
+    <br><hr><br>
+
+    <!--PARRAFOS / PARAGRAPHS y NEGRITRAS, CURSIVAS Y TACHADOS-->
+    <p>Lorem ipsum <b>dolor sit amet</b> consectetur adipisicing elit. Modi quam eos ullam voluptate unde illo,
+        accusamus
+        veniam, nemo <em>possimus provident voluptatum</em> obcaecati dicta laudantium illum. <s>Odit quod laboriosam
+            accusamus
+            corrupti.</s></p>
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam eos ullam voluptate unde illo, accusamus veniam, nemo possimus provident voluptatum obcaecati dicta laudantium illum. Odit quod laboriosam accusamus corrupti.</pre>
+    
+    <br><hr><br>
+    
+    <p>
+        <!--AISLA PARTE DE TEXTOS PARA DARLES REFERENCIA MAS TARDE-->
+        <span id="ingredients">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, fugit itaque similique
+            facilis quas suscipit fuga asperiores! Error, aliquam inventore!</span>
+    </p>
+
+    <br><hr><br>
+
+    <!--SUBINDICES o ETIQUETAS-->
+    <p>
+        La molecula preferida de casi cualquier desarrollador es
+        C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>,
+        tambien conocida como cafeina.
+    </p>
+    
+    <br><hr><br>
+    
+    <!--SUPERINDICES ("var" solo representa una variable, no modifica nada)-->
+    <p>El teorema de pitagoras se conoce por la ecuacion:</p>
+    <p><var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup></p>
+    
+    <br><hr><br>
+    
+    <!--HORA y FECHA-->
+    <p>Las clases del bootcamp empiezan a las <time datetime="09:30">09:30.</time></p>
+    <p>Y el dia sera el <time datetime="2022-09-16">2022-09-16.</time></p>
+    
+    <br><hr><br>
+    
+    <!--CONTENEDORES / CONTAINERS-->
+    <nav>
+        <a href="https://campus.codespaceacademy.com/">CodeSpaceAcademy</a>
+        <a href="https://github.com/">GitHub</a>
+        <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">Aprende HTML5 con Mozilla</a>
+    </nav>
+
+    <br><hr><br>
+
+    <!--SECCIONES Y ARTICULOS-->
+    <section>
+        <article>
+            <h1>Extra extra!!!</h1>
+            <p>La guerra no termina</p>
+        </article>
+        <a href="https://www.elmundo.es/internacional/2022/11/08/6369f12fb7e9f1001e429289-directo.html">Guerra siglo XXII: Ucrania VS Rusia</a>
+    </section>
+
+    <br><hr><br>
+
+    <!--MENUS LATERALES / ASIDES-->
+    <aside>
+        <p>Menu lateral con opciones</p>
+    </aside>
+
+    <br><hr><br>
+
+    <!--PIE DE PAGINA CON DIRECCION-->
+    <footer>
+        <p>Pie de pagina</p>
+        <address>Malaga, C.P. 29591</address>
+    </footer>
+
+    <br><hr><br>
+
+    <!--CONTENEDOR GENERICO-->
+    <div class="container" style="background-color: darkgoldenrod;">
+        <p>Contenedor generico para agrupar elementos</p>
+    </div>
+
+    <br><hr><br>
+
+    <!--LISTA DESORDENADA CON ELEMENTOS / UNORDER LISTS-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+
+    <br><hr><br>
+
+    <!--LISTA NUMERADA CON ELEMENTOS / ORDER LISTS-->
+    <ol>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ol>
+    <ol start="500">
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ol>
+
+    <br><hr><br>
+
+    <!--MEZCLA DE LISTAS-->
+    <ol>
+        <li>Elemento</li>
+        <li>Elemento</li>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                    <ul>
+                      <li>Elemento 1</li>
+                      <li>Elemento 2</li>
+                    </ul>  
+                <li>Elemento 3</li>
+            </ul>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ol>
+
+    <br><hr><br>
+
+    <!--TABLAS / TABLES (cabezeras y cuerpos)-->
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan Carlos</td>
+                <td>kevlaroscuro@gmail.com</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Marina</td>
+                <td>mromeronarbora@gmail.com</td>
+                <td>29</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>******</th>
+                <th>******</th>
+                <th>******</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><hr><br>
+    
+    <!--FORMULARIOS / FORMS ("get" para pedir info al servidor, y "post" para enviarla)-->
+
+    <!--nota rapida 1: "id" nunca se repite, es unico para cada input si se pone-->
+    <!--nota rapida 2: "name" si se puede repetir, en casos muy concretos-->
+    <!--nota rapida 3: "name" hace referencia al nombre que le damos al dato 
+    que va a llegar al servidor, por lo que podemos usar el que queramos-->
+
+    <form action="#" method="get">
+
+        <div class="input_block">
+            <label for="name_input">Nombre:</label>
+            <input type="text" id="name_input" name="user_name" placeholder="introduce tu nombre">
+        </div>
+
+        <div class="input_block">
+            <label for="lastname_input">Apellidos:</label>
+            <input type="text" id="lastname_input" name="user_lastname" placeholder="introduce tus apellidos">
+        </div>
+
+        <div class="input_block">
+            <label for="email_input">Email:</label>
+            <input type="email" id="email_input" name="user_email" placeholder="introduce tu email">
+        </div>
+
+        <div class="input_block">
+            <label for="pass_input">Contraseña: (*)</label>
+            <input required type="password" id="pass_input" name="user_pass" placeholder="introduce tu contraseña">
+        </div>
+
+        <div class="input_block">
+            <label for="comments_input">Comentarios:</label>
+            <textarea id="comments_input" name="user_comments" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="input_block">
+            <label for="sex_input">Género:</label>
+            <select id="sex_input" name="user_sex">
+                <option value="" hidden></option>
+                <option value="female">Femenino</option>
+                <option value="male">Masculino</option>
+                <option value="other">Otro</option>
+            </select>
+        </div>
+            
+        <input type="number" id="age_input" name="user_age" value="59" min="18" max="59">
+
+        <input type="date" name="user_date">
+
+        <input type="submit" value="Guardar">
+
+    </form>
+
+    <br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>
